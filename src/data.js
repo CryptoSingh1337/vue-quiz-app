@@ -126,7 +126,7 @@ const data = [{
             }
         }
     `,
-    correctAnswer: 3,
+    correctAnswer: 4,
     options: [
         {
             label: "true true false false",
