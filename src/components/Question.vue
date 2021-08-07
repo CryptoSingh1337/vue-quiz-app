@@ -106,6 +106,7 @@ export default {
 }
 .code {
   background-color: #eaeaea;
+  overflow: auto;
 }
 .compulsory {
   color: red;

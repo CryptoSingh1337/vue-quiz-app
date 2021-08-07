@@ -44,16 +44,16 @@ const data = [{
     compulsory: true,
     code:
         `
-        public class Main {
-            public static void main (String ...args) {
-                String s1 = "Hello World";
-                String s2 = "Hello World";
-                System.out.print(s1 == s2 + " ");
+public class Main {
+    public static void main (String ...args) {
+        String s1 = "Hello World";
+        String s2 = "Hello World";
+        System.out.print(s1 == s2 + " ");
 
-                String s3 = String.valueOf("Hello World");
-                System.out.print(s1 == s3);
-            }
-        }
+        String s3 = String.valueOf("Hello World");
+        System.out.print(s1 == s3);
+    }
+}
     `,
     correctAnswer: 3,
     options: [
@@ -109,22 +109,22 @@ const data = [{
     compulsory: true,
     code:
         `
-        inteface A {}
+inteface A {}
 
-        class B implements A {}
+class B implements A {}
 
-        class C extends B {}
+class C extends B {}
 
-        class D extends B {}
+class D extends B {}
 
-        public class Main {
-            public static void main (String ...args) {
-                System.out.print((new D() instanceof A) + " ");
-                System.out.print((new C() instanceof A) + " ");
-                System.out.print((new B() instanceof D) + " ");
-                System.out.print(new D() instanceof B);
-            }
-        }
+public class Main {
+    public static void main (String ...args) {
+        System.out.print((new D() instanceof A) + " ");
+        System.out.print((new C() instanceof A) + " ");
+        System.out.print((new B() instanceof D) + " ");
+        System.out.print(new D() instanceof B);
+    }
+}
     `,
     correctAnswer: 4,
     options: [
