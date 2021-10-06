@@ -1,24 +1,43 @@
-# quiz
 
-## Project setup
-```
-npm install
-```
+# Vue Quiz App
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+A customizable multiple choice quiz app created using Vue.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Features
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Take input (questions) from the file i.e., these are dynamic..
+- Preserves the state of the answers for each question.
+- User can go back to previous question.
+- User cannot move forward without selecting any answer.
+- Simpe UI (User Interface).
+
+  
+## Demo
+
+[https://pensive-nightingale-13aa84.netlify.app/](https://pensive-nightingale-13aa84.netlify.app/)
+
+## Screeenshots:
+
+**Home View**
+
+![Home](https://raw.githubusercontent.com/CryptoSingh1337/vue-quiz-app/master/screenshots/home.png)
+
+---
+
+**Question Sample**
+
+![Question](https://raw.githubusercontent.com/CryptoSingh1337/vue-quiz-app/master/screenshots/question.png)
+
+---
+
+**Score View**
+
+![Score](https://raw.githubusercontent.com/CryptoSingh1337/vue-quiz-app/master/screenshots/quiz_score.png)
+
+## Tech Stack
+
+- JavaScript
+- Vue
+- Vuex
+- WaveUI
